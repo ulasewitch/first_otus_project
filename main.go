@@ -12,10 +12,16 @@ func otus_print() {
 	fmt.Println(line, "это мой первый проект")
 }
 
-func otus_branch() {
+func otus_branch_feature00() {
 
 	line := "Привет,"
-	fmt.Println(line, "это новая фича")
+	fmt.Println(line, "это новая фича 00")
+}
+
+func otus_branch_feature01() {
+
+	line := "Привет,"
+	fmt.Println(line, "это новая фича 01")
 }
 
 func main() {
@@ -30,6 +36,6 @@ func main() {
 		fmt.Println("i =", 100/i)
 	}
 
-	otus_print()
-	otus_branch()
+	otus_branch_feature00()
+	otus_branch_feature01()
 }
