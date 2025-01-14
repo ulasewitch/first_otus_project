@@ -24,6 +24,12 @@ func otus_branch_feature01() {
 	fmt.Println(line, "это новая фича 01")
 }
 
+func otus_branch_feature02() {
+
+	line := "Привет,"
+	fmt.Println(line, "это новая фича 02")
+}
+
 func main() {
 	//TIP <p>Press <shortcut actionId="ShowIntentionActions"/> when your caret is at the underlined text
 	// to see how GoLand suggests fixing the warning.</p><p>Alternatively, if available, click the lightbulb to view possible fixes.</p>
@@ -38,4 +44,5 @@ func main() {
 
 	otus_branch_feature00()
 	otus_branch_feature01()
+	otus_branch_feature02()
 }
